@@ -10,8 +10,7 @@ import java.io.InputStream;
 import java.util.Properties;
 
 public class Config {
-//    private static final File PROPS = new File(getHomeDir(), "config/users.properties");
-    private static final File PROPS = new File("F:\\rep\\gazIsTest\\config\\users.properties");
+    private static final File PROPS = new File(getHomeDir(), "config/users.properties");
     private static final Config INSTANCE = new Config();
 
     private final SqlStorage storage;

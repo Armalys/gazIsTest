@@ -32,10 +32,6 @@ public class User implements Serializable {
         return lastName;
     }
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
